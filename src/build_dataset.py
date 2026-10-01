@@ -63,6 +63,16 @@ def child_sample(code):
     return kids.reset_index(drop=True)
 
 
+def district_members():
+    """Usual members (roster sb1q11 = 1) of all sampled households in each study district:
+    the 'Total Sample' of Table A1."""
+    roster, _ = read_module("roster")
+    codes = {v[0]: k for k, v in DISTRICTS.items()}
+    members = roster[roster["district"].isin(codes) & (roster["sb1q11"] == 1)]
+    return (members.groupby("district").size().rename(index=codes)
+            .rename_axis("district_key").rename("household members").reindex(list(DISTRICTS)))
+
+
 def attach(kids, module):
     """Rows of a PSLM module matched to the children: by person or by household."""
     df, _ = read_module(module)

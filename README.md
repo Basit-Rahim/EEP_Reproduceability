@@ -71,7 +71,8 @@ files.
 
 ```
 raw PSLM Stata files
-      │  notebook 01  Data preparation      → data/analysis_data.parquet, data/variables.csv
+      │  notebook 01  Data preparation      → data/analysis_data.parquet, data/variables.csv,
+      │                                       data/district_members.csv
       ▼
 analysis dataset (one row per child)
       │  notebook 02  Descriptive analysis  → results/descriptives/*.csv, Tables D1 and 4
@@ -90,7 +91,8 @@ output.
 the five capitals and the most deprived district of each province.
 
 **1.2 Sample.** All usual household members (roster `sb1q11 = 1`) aged 5 to 16 in the nine
-districts, with the household sampling weight and primary sampling unit.
+districts, with the household sampling weight and primary sampling unit. The number of all usual
+members of the sampled households is saved per district (the *Total Sample* of Table A1).
 
 **1.3 Outcome.** `education_access = 1` if the child is currently attending school
 (`secc1 sc1q01 = 3`); `0` if the child never attended (`= 1`) or attended in the past (`= 2`).
@@ -218,7 +220,7 @@ compared with Spearman's rank correlation.
 
 | Manuscript | File | Produced by |
 |---|---|---|
-| Sample and prevalence (Section 3.3) | `results/descriptives/sample_and_prevalence.csv` | 02 |
+| Sample and prevalence; Table A1 *Sample Size* and *Total Sample* | `results/descriptives/sample_and_prevalence.csv` | 01, 02 |
 | Age, sex and disability figures in the text | `results/descriptives/attendance_by_age.csv`, `attendance_by_sex.csv`, `attendance_by_disability.csv` | 02 |
 | Table 2 | `results/tables/table2_performance.csv` | 03 |
 | Table 3 (ranks 1-5 of Table B1) | `results/tables/tableB1_top_predictors.csv` | 03 |
@@ -244,7 +246,7 @@ src/
   build_dataset.py  construction of the analysis dataset
   modeling.py       preprocessing, models, cross-validation, SHAP
   evaluation.py     metrics, corrected resampled t-test, DeLong test, cluster bootstrap, Holm
-data/               analysis dataset and variable list
+data/               analysis dataset, variable list, household members per district
 results/            descriptives/ and tables/ (results/cv/ holds cached predictions, not tracked)
 raw_data/           PSLM 2019-20 Stata files (not included)
 requirements.txt    exact package versions
