@@ -1,0 +1,10 @@
+district,primary,child_split,with_school_vars,with_school_vars_child_split,without_concurrent
+Karachi Central,0.807,0.852,0.819,0.86,0.783
+Islamabad,0.814,0.868,0.819,0.873,0.782
+Lahore,0.816,0.853,0.833,0.86,0.779
+Quetta,0.811,0.846,0.836,0.864,0.781
+Peshawar,0.825,0.857,0.841,0.87,0.79
+Kohistan,0.909,0.927,0.909,0.927,0.909
+Dera Bugti,0.877,0.901,0.877,0.901,0.872
+Rajanpur,0.827,0.855,0.829,0.855,0.826
+Tharparkar,0.767,0.809,0.767,0.809,0.761

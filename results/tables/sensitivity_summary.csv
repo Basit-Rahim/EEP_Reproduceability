@@ -1,0 +1,6 @@
+analysis,LR,NN,RF,RF - LR
+primary,0.768,0.774,0.828,0.06
+child_split,0.791,0.824,0.863,0.072
+with_school_vars,0.777,0.786,0.837,0.06
+with_school_vars_child_split,0.798,0.83,0.869,0.071
+without_concurrent,0.742,0.753,0.809,0.067

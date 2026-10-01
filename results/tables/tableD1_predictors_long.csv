@@ -1,0 +1,57 @@
+Domain,Predictor,Level,Status
+Child demographics,Age,child,used in all districts
+Child demographics,Gender,child,used in all districts
+Child demographics,Marital status,child,used in all districts
+Child demographics,Relationship to head,child,used in all districts
+Child demographics,Residence status,child,used in all districts
+Child demographics,Born in district,child,used in all districts
+Child demographics,Born-district type,child,not used: > 50 % missing in every district
+Child demographics,Migration reason,child,not used: > 50 % missing in every district
+Education & skills,Can do math,child,not used: school-dependent
+Education & skills,Can write,child,not used: school-dependent
+Education & skills,Years to complete primary,child,not used: school-dependent
+Household head,Head age,household,used in all districts
+Household head,Head gender,household,used in all districts
+Household head,Head education level,household,used in all districts
+Household head,Reason for headship,household,used in all districts
+Child work & income,Worked last month,child,"used in Karachi Central, Islamabad, Lahore, Quetta, Peshawar"
+Child work & income,Work days last month,child,not used: > 50 % missing in every district
+Child work & income,Has job,child,"used in Karachi Central, Islamabad, Lahore, Quetta, Peshawar"
+Child work & income,Employment status,child,not used: > 50 % missing in every district
+Child work & income,Can report income,child,not used: > 50 % missing in every district
+Child work & income,Monthly income,child,not used: > 50 % missing in every district
+Child work & income,Received in-kind wages,child,"used in Karachi Central, Islamabad, Lahore, Quetta, Peshawar"
+Child work & income,Income used for household,child,"used in Karachi Central, Islamabad, Lahore, Quetta, Peshawar"
+Household economic status,Household income (log),household,used in all districts
+Household economic status,Total assets,household,used in all districts
+Household economic status,House owner gender,household,used in all districts
+Household economic status,Occupancy status,household,used in all districts
+Household economic status,Property owner gender,household,"used in Kohistan, Dera Bugti"
+Food security,Worried about food,household,used in all districts
+Food security,Household ran out of food,household,used in all districts
+Food security,Hungry but did not eat,household,used in all districts
+"Water, sanitation & hygiene",Toilet type,household,used in all districts
+"Water, sanitation & hygiene",Shared toilet,household,used in all districts
+"Water, sanitation & hygiene",Connected to sewerage,household,used in all districts
+"Water, sanitation & hygiene",Has handwashing place,household,used in all districts
+"Water, sanitation & hygiene",Handwashing water source,household,used in all districts
+"Water, sanitation & hygiene",Cooking water source,household,used in all districts
+"Water, sanitation & hygiene",Sufficient drinking water,household,used in all districts
+"Water, sanitation & hygiene",Pay for water,household,used in all districts
+Housing & location,Dwelling type,household,used in all districts
+Housing & location,Number of rooms,household,used in all districts
+Housing & location,Heating fuel,household,used in all districts
+Housing & location,Region (urban/rural),household,used in all districts
+Housing & location,Transport mode,household,"used in Dera Bugti, Rajanpur"
+Digital access,Has internet,household,used in all districts
+Digital access,Has computer,household,used in all districts
+Digital access,Has laptop,household,used in all districts
+Digital access,Household has mobile phone,household,used in all districts
+Digital access,Child has own mobile,child,used in all districts
+Digital access,Used computer,child,used in all districts
+Digital access,Used mobile,child,used in all districts
+Digital access,No-computer reason,child,used in all districts
+Digital access,No-mobile reason,child,"used in Peshawar, Kohistan, Rajanpur"
+Digital access,Computer location,child,not used: > 50 % missing in every district
+Health & disability,Disability,child,used in all districts
+Health & disability,Sick in last 2 weeks,child,used in all districts

@@ -1,0 +1,11 @@
+Domain,PSLM features used
+Child demographics,Age; Gender; Marital status; Relationship to head; Residence status; Born in district
+Education & skills,—
+Household head,Head age; Head gender; Head education level; Reason for headship
+Child work & income,Worked last month‡; Has job‡; Received in-kind wages‡; Income used for household‡
+Household economic status,Household income (log); Total assets; House owner gender; Occupancy status; Property owner gender‡
+Food security,Worried about food; Household ran out of food; Hungry but did not eat
+"Water, sanitation & hygiene",Toilet type; Shared toilet; Connected to sewerage; Has handwashing place; Handwashing water source; Cooking water source; Sufficient drinking water; Pay for water
+Housing & location,Dwelling type; Number of rooms; Heating fuel; Region (urban/rural); Transport mode‡
+Digital access,Has internet; Has computer; Has laptop; Household has mobile phone; Child has own mobile; Used computer; Used mobile; No-computer reason; No-mobile reason‡
+Health & disability,Disability; Sick in last 2 weeks

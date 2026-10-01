@@ -1,0 +1,10 @@
+District,#1,#2,#3,#4,#5,#6,#7,#8,#9-10,RF-LR rank agreement (Spearman)
+Karachi Central,Head education level,Has internet,Pay for water,Age,No-computer reason,Worried about food,Dwelling type,Used mobile,Head age; Used computer,0.59
+Islamabad,Head education level,Has internet,Used mobile,Age,Household income (log),Occupancy status,Head age,No-computer reason,Worried about food; Connected to sewerage,0.5
+Lahore,Head education level,Age,Has internet,Worried about food,Used mobile,Worked last month,Occupancy status,Has handwashing place,Income used for household; Total assets,0.53
+Quetta,Gender,Toilet type,Age,Head education level,Has handwashing place,Has internet,Reason for headship,Used computer,Used mobile; No-computer reason,0.76
+Peshawar,Gender,Age,Head education level,Used mobile,Region (urban/rural),Has handwashing place,Worked last month,Used computer,Income used for household; Has internet,0.67
+Kohistan,Gender,Age,Heating fuel,Head education level,Handwashing water source,Cooking water source,Toilet type,Has internet,Household income (log); Number of rooms,0.8
+Dera Bugti,Age,Gender,Total assets,Used mobile,Head education level,Household income (log),Cooking water source,Toilet type,Heating fuel; Head age,0.82
+Rajanpur,Toilet type,Head education level,Gender,Connected to sewerage,Handwashing water source,Region (urban/rural),Used mobile,Shared toilet,Head age; Heating fuel,0.81
+Tharparkar,Gender,Head education level,Age,Used mobile,Shared toilet,Total assets,Toilet type,Head age,Household income (log); Number of rooms,0.83

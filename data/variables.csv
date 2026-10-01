@@ -1,0 +1,57 @@
+variable,source / definition,kind,level,type,school-dependent
+age,roster.age,question,child,numeric,False
+gender,roster.sb1q4,question,child,categorical,False
+relationship_to_head,roster.sb1q2,question,child,categorical,False
+reason_for_headship,roster.sb1q3,question,household,categorical,False
+residence_status,roster.sb1q5,question,child,categorical,False
+marital_status,roster.sb1q7,question,child,categorical,False
+region,roster.region,question,household,categorical,False
+born_in_district,secb2.sb2q01,question,child,categorical,False
+born_district_type,secb2.sb2q2a,question,child,categorical,False
+migration_reason,secb2.sb2q05,question,child,categorical,False
+can_write,secc1.sc1q2a,question,child,categorical,True
+can_do_math,secc1.sc1q3a,question,child,categorical,True
+years_to_complete_primary,secc1.sc1q06,question,child,categorical,True
+used_computer,secc2.sc2q01,question,child,categorical,False
+computer_location,secc2.sc2q02,question,child,categorical,False
+no_computer_reason,secc2.sc2q04,question,child,categorical,False
+has_mobile,secc2.sc2q05,question,child,categorical,False
+used_mobile,secc2.sc2q06,question,child,categorical,False
+no_mobile_reason,secc2.sc2q07,question,child,categorical,False
+sick_last_2wks,secd.sdaq01,question,child,categorical,False
+worked_last_month,sece.seaq01,question,child,categorical,False
+work_days_last_month,sece.seaq02,question,child,numeric,False
+has_job,sece.seaq03,question,child,categorical,False
+employment_status,sece.seaq06,question,child,categorical,False
+can_report_income,sece.seaq07,question,child,categorical,False
+monthly_income,sece.seaq08,question,child,numeric,False
+received_in_kind_income,sece.seaq18,question,child,categorical,False
+income_used_for_hh,sece.seaq22,question,child,categorical,False
+occupancy_status,secf1.sf1q01,question,household,categorical,False
+house_owner_gender,secf1.sf1q02,question,household,categorical,False
+dwelling_type,secf1.sf1q03,question,household,categorical,False
+num_rooms,secf1.sf1q04,question,household,numeric,False
+heating_fuel,secf1.sf1q09,question,household,categorical,False
+has_internet,secf1.sf1q11_1a,question,household,categorical,False
+has_mobile_phone,secf1.sf1q11_1b,question,household,categorical,False
+has_computer,secf1.sf1q11_1d,question,household,categorical,False
+has_laptop,secf1.sf1q11_1e,question,household,categorical,False
+sufficient_drinking_water,secf2.sf2q07,question,household,categorical,False
+pay_for_water,secf2.sf2q08,question,household,categorical,False
+toilet_type,secf2.sf2q11,question,household,categorical,False
+shared_toilet,secf2.sf2q15,question,household,categorical,False
+connected_to_sewerage,secf2.sf2q16,question,household,categorical,False
+cooking_water_source,secf2.sf2q17,question,household,categorical,False
+handwashing_water_source,secf2.sf2q18,question,household,categorical,False
+has_handwashing_place,secf2.sf2q19,question,household,categorical,False
+worried_about_food,seck.c01,question,household,categorical,False
+household_ran_out_of_food,seck.c06,question,household,categorical,False
+hungry_but_did_not_eat,seck.c07,question,household,categorical,False
+disability,Any Washington Group functional difficulty (secb2 sb2q06-11) rated 'some difficulty' or worse,constructed,child,categorical,False
+head_age,Age of the household head (roster); age 99 (not known) treated as missing,constructed,household,numeric,False
+head_gender,Sex of the household head (roster),constructed,household,categorical,False
+head_edu_level_num,"Education of the household head (secc1): 0 never attended, 1 classes 1-4, 2 class 5, 3 classes 6-12, 4 degree, 5 other",constructed,household,numeric,False
+total_assets,"Number of property and livestock items owned (secg items 1, 4-10)",constructed,household,numeric,False
+property_owner_gender,Gender of the owner of agricultural land (secg item 1),constructed,household,categorical,False
+transport_mode,Mode of transport to the basic health unit (secl),constructed,household,categorical,False
+log_household_income,log(1 + annual household income); income summed over all members and all sources (sece); missing when a member worked but no cash amount was recorded,constructed,household,numeric,False

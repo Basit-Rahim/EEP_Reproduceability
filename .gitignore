@@ -1,0 +1,9 @@
+# Raw PSLM microdata (430 MB) - obtain from the Pakistan Bureau of Statistics; never commit
+raw_data/
+*.zip
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/cv/
+nb03_run.log

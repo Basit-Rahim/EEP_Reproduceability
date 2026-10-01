@@ -1,0 +1,10 @@
+District,Head education level,Age,Gender,Has internet,Toilet type,Disability,Mean SHAP of gender for girls
+Karachi Central,1,4,36,2,34,33,0.0
+Islamabad,1,4,23,2,17,19,0.004
+Lahore,1,2,23,3,28,15,0.007
+Quetta,4,3,1,6,2,34,-0.074
+Peshawar,3,2,1,10,18,24,-0.106
+Kohistan,4,2,1,8,7,31,-0.329
+Dera Bugti,5,1,2,20,8,36,-0.095
+Rajanpur,2,19,3,28,1,20,-0.056
+Tharparkar,2,3,1,13,7,21,-0.105
